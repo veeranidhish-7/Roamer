@@ -51,9 +51,9 @@ const sessionOptions = {
 };
 
 // Index route
-app.get("/", (req, res) => {
-  res.send("Hi i am Root");
-});
+// app.get("/", (req, res) => {
+//   res.send("Hi i am Root");
+// });
 
 app.use(session(sessionOptions));
 app.use(flash());
